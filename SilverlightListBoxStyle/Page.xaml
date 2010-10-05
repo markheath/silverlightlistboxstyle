@@ -1,0 +1,29 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="SilverlightListBoxStyle.Page"
+    Width="640" Height="480" xmlns:System="clr-namespace:System;assembly=mscorlib">
+    <Grid x:Name="LayoutRoot" Background="White">
+    
+        <ListBox 
+         Margin="5"
+         Width="160"
+         Height="160"
+         Style="{StaticResource ListBoxStyle1}"
+         ItemsSource="{Binding}"
+         >
+            <!-- n.b. VS designer is fine without the TextBlock -->
+            <!--
+            <ListBoxItem><TextBlock Text="Hello"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="World"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="Item 3"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="Item 4 with a really long name"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="Item 5"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="Item 6"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="Item 7"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="Item 8"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="Item 9 out of bounds"/></ListBoxItem>
+            <ListBoxItem><TextBlock Text="Item 10 out of bounds"/></ListBoxItem>-->
+        </ListBox>
+    </Grid>
+</UserControl>
